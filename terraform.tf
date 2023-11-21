@@ -1,12 +1,14 @@
 terraform {
 
+  /*
   cloud {
-    organization = "organization-name"
+    organization = "shubbarm-learn"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "LearningCloud"
     }
   }
+*/
 
   required_providers {
     aws = {
